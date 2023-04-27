@@ -295,8 +295,10 @@ svg{
    }
    .heat-image{
    
-    width: 254px;
-    height: 238px;
+/*     width: 254px; */
+/*     height: 238px; */
+        height: 205px;
+     width: 205px;  
     
 }
 .navbar>.container, .navbar>.container-fluid {
@@ -315,6 +317,17 @@ svg{
     gap: 0rem!important;
 }
 
+}
+
+
+@media screen and (max-width: 375px){
+    h2 {
+        font-size: 1rem;
+    }
+    .heat-image {
+        width: 180px;
+        height: 180px;
+    }
 }
   
 
